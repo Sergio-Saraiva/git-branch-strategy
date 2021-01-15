@@ -10,7 +10,7 @@ routes.get('/rota-001/:num', (req, res) => {
 
 routes.get('/rota-003/:num', (req, res) => {
     const {num} = req.params    
-    res.json({ result: Number(num*num)+1})
+    res.json({ result: Number(num*num)+1+3})
 });
 
 export default routes;
