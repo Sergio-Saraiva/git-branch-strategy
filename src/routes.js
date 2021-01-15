@@ -18,4 +18,8 @@ routes.get('/rota-003/:num', (req, res) => {
     res.json({ result: Number(num*num)+1+3})
 });
 
+//mudança release
+//correção bug durante a release-001
+//coreção bug 2 durante a release-001
+
 export default routes;
