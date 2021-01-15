@@ -8,5 +8,14 @@ routes.get('/rota-001/:num', (req, res) => {
     res.json({ result: Number(num)+1})
 });
 
+routes.get('/rota-002/:num', (req, res) => {
+    const {num} = req.params   
+    return res.send(`<h1>Hellor World: ${num}</h1>`)
+})
+
+routes.get('/rota-003/:num', (req, res) => {
+    const {num} = req.params    
+    res.json({ result: Number(num*num)+1+3})
+});
 
 export default routes;
