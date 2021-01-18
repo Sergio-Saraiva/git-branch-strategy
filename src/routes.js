@@ -1,4 +1,5 @@
 import { Router } from 'express'
+import nodemon from 'nodemon';
 const routes = new Router();
 
 routes.get('/', (req, res) => res.json({ msg: 'Hello World' }));
@@ -24,5 +25,12 @@ routes.get('/rota-003/:num', (req, res) => {
 
 //hotfix 001
 //continuação do hotfix
+
+//funcionalidade 004
+//continuação
+
+//funcionalide 005
+
+//funcionalidade 006
 
 export default routes;
