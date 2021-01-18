@@ -28,6 +28,6 @@ routes.get('/rota-003/:num', (req, res) => {
 //funcionalidade 004
 //continuação
 
-
+//funcionalidade 006
 
 export default routes;
