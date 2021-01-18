@@ -25,4 +25,7 @@ routes.get('/rota-003/:num', (req, res) => {
 //hotfix 001
 //continuação do hotfix
 
+//funcionalidade 004
+
+
 export default routes;
