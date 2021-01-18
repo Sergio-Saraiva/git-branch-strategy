@@ -31,5 +31,6 @@ routes.get('/rota-003/:num', (req, res) => {
 
 //funcionalide 005
 
+//funcionalidade 006
 
 export default routes;
